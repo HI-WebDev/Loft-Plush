@@ -1,10 +1,23 @@
-.faq .accordion-item {
+.faq .accordion .accordion-item {
     border: none;
     border-bottom: 2px solid #aaa;
     border-radius: 0;
 }
 
-.faq .accordion-button:focus {
+.faq .accordion .accordion-button{
+    font-weight: 500 !important;
+}
+
+.faq .accordion .accordion-button:focus {
     box-shadow: none;
     background-color: #fff;
+}
+
+.faq .accordion .accordion-button::after {
+    content: "+";
+    font-weight: 400;
+    font-size: 40px;
+    background-image: none;
+    display: flex;
+    align-items: center;
 }

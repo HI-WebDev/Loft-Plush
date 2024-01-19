@@ -1,4 +1,4 @@
-// import Footer from "../../components/Footer/Footer"
+import Footer from "../../components/Footer/Footer"
 import Navbar from "../../components/Navbar/Navbar"
 import Routers from "../Routers/Routers"
 
@@ -9,7 +9,7 @@ const Layout = () => {
             <div>
                 <Routers />
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }

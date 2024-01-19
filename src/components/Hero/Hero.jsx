@@ -12,6 +12,7 @@ import Testimonials from '../Testimonials/Testimonials';
 import HomeStead from '../homestead Forniture/HomeStead';
 import Faq from '../FAQ/Faq';
 import Blog from '../Blog/Blog';
+import FollowUs from '../Follow Us/FollowUs';
 
 
 const Hero = () => {
@@ -92,6 +93,7 @@ const Hero = () => {
             <HomeStead />
             <Faq />
             <Blog />
+            <FollowUs />
         </>
     )
 }
