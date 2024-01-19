@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar .container {
+    border-bottom: 2px solid #aaa;
+}
+
+.navbar .navbar-toggler{
+    border: none;
+}
+
+.navbar .navbar-toggler:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.navbar .navbar-brand {
+    font-family: inter, sans-serif;
+}

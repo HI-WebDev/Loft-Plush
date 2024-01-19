@@ -1,0 +1,9 @@
+.Button {
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+}
+.Button a {
+    color: #000;
+}

@@ -1,7 +1,10 @@
 import { Navigate, Route, Routes } from "react-router-dom"
 import Hero from '../../components/Hero/Hero'
 import About from '../../components/About/About'
-import Login from '../../components/Login/Login'
+import Catalog from '../../components/catalog/Catalog'
+import Contact from '../../components/contact/Contact'
+import ProductDetails from '../../components/Product Details/ProductDetails';
+
 
 const Routers = () => {
     return (
@@ -10,7 +13,9 @@ const Routers = () => {
                 <Route path="/" element={<Navigate to="/hero" />} />
                 <Route path="hero" Component={Hero} />
                 <Route path="about" Component={About} />
-                <Route path="login" Component={Login} />
+                <Route path="catalog" Component={Catalog} />
+                <Route path="catalog/:id" Component={ProductDetails} />
+                <Route path="contact" Component={Contact} />
             </Routes>
         </div>
     )

@@ -1,0 +1,20 @@
+.home {
+    /* height: calc(100vh - 71px); */
+    font-family: Helvetica, sans-serif;
+}
+
+.home {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home .title {
+    height: 90px;
+    font-size:90px;
+}
+
+.home .image img {
+    height: 80px;
+    width: 100%;
+    border-radius: 8px;
+}

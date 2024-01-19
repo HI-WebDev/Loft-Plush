@@ -1,0 +1,9 @@
+.quote .desc {
+    font-weight: 600;
+    font-family: inter, sans-serif;
+    color: #000;
+}
+
+.quote .links {
+    border-bottom: 2px solid #aaa;
+}
