@@ -5,16 +5,18 @@ import img from '../../assets/images/new.png';
 import './product-card.css';
 
 
-const ProductCard = () => {
+const ProductCard = (products) => {
     return (
         <div className='productCard'>
             <div className="card">
                 <img src={img} className="card-img-top" alt="" />
                 <div className="card-body">
-                    <Link to="#" className="card-title fs-5 text-decoration-none">Product Name</Link>
+                    <Link to={`catalog/${products.id}`} className="card-title fs-5 text-decoration-none">
+                        {products.productName}
+                    </Link>
                     <div className="d-flex align-items-center mt-3">
-                        <span className='me-4 fw-bold'>$991</span>
-                        <del>$1000</del>
+                        <span className='me-4 fw-bold'>${products.price}</span>
+                        <del>${products.delPrice}</del>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,7 @@
 import Header from "../../helpers/Header/Header"
 import ProductCard from "../../helpers/Product Card/ProductCard";
+import products from '../../assets/Data/productsData';
+
 import './new.css';
 
 const New = () => {
@@ -8,18 +10,11 @@ const New = () => {
             <div className="container">
                 <Header title="new" dir="catalog" Btitle="browse" />
                 <div className="row mt-4 pb-4">
-                    <div className="col-lg-3">
-                        <ProductCard />
-                    </div>
-                    <div className="col-lg-3">
-                        <ProductCard />
-                    </div>
-                    <div className="col-lg-3">
-                        <ProductCard />
-                    </div>
-                    <div className="col-lg-3">
-                        <ProductCard />
-                    </div>
+                    {products.map((product, index) => {
+                        <div className="col-lg-3" key={index}>
+                            <ProductCard products={product} />
+                        </div>
+                    })}
                 </div>
             </div>
         </div>

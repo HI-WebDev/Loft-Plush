@@ -1,8 +1,48 @@
+import ProductCard from '../../helpers/Product Card/ProductCard';
+import { IoSearchSharp } from "react-icons/io5";
+
+import './catalog.css';
 
 const Catalog = () => {
     return (
-        <div>
-            catalog
+        <div className='catalog mt-5 mb-5'>
+            <div className="container">
+                <div className="row mb-5 d-flex justify-content-between align-items-center">
+                    <div className="col-12 col-lg-3 mb-4 mb-lg-0">
+                        <select className='categories text-capitalize ps-3 p-2 w-100' name="" id="">
+                            <option className='text-capitalize' value="1">filter by category</option>
+                            <option value="mobile">mobile</option>
+                            <option value="sofa">Sofa</option>
+                            <option value="Gaming chair">gaming chair</option>
+                            <option value="Single chair">single chair</option>
+                            <option value="wireless">wireless</option>
+                            <option value="watch">watch</option>
+                        </select>
+                    </div>
+                    <div className="col-12 col-lg-9 d-flex justify-content-between justify-content-lg-end align-items-center">
+                        <div className="col-3 col-lg-2 me-lg-4">
+                            <select className="sort ps-1 ps-md-3 p-2 w-100" name="" id="">
+                                <option value="1">Sort By</option>
+                                <option value="1">Chairs</option>
+                                <option value="1">Watches</option>
+                            </select>
+                        </div>
+                        <div className="col-8 col-lg-7">
+                            <div className='form d-flex align-items-center w-100 '>
+                                <input type="text" className="search w-100 p-2 ps-3" name="search" id="" placeholder="Search"
+                                />
+                                <IoSearchSharp className='me-2 fs-5' />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-3">
+                        <ProductCard />
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

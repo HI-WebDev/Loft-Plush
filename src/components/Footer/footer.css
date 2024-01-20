@@ -1,13 +1,19 @@
-.footer{
+.footer {
     background-color: #000;
     color: #fff;
 }
 
-.footer ul li{
+.footer ul li {
     cursor: pointer;
 }
 
-.footer .copy .two{
-display: flex;
-justify-content: center;
+.footer .line {
+    width: 100%;
+    height: 2px;
+    background-color: #aaa;
+}
+
+.footer .copy .two {
+    display: flex;
+    justify-content: center;
 }

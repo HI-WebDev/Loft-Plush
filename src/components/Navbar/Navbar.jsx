@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container ps-0 pe-0 pb-2">
-                <Link to="/" className="navbar-brand fw-bold fs-4">Loft Plush</Link>
+                <Link to="/" className="navbar-brand fw-bold fs-4">Loft <span>Plush</span></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
                     onClick={handleClick}>
                     {click ? <RiMenu4Line /> : <RiMenu5Fill />}

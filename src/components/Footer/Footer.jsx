@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div className='footer pt-5 pb-3'>
             <div className="container">
-                <div className="row mb-4">
+                <div className="row mb-5">
                     <div className="col-lg-4">
                         <div className="d-flex flex-column">
                             <h1 className="fs-3 text-uppercase mb-">loft plush</h1>
@@ -79,17 +79,18 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
+                <span className="line"></span>
                 <div className="row">
                     <div className="col-lg-4">
                         <h1 className="fs-6 text-uppercase">
                             &copy; {year} loft plush
                         </h1>
                     </div>
-                    <div className="col-lg-4">
-                        <h1 className="fs-6 text-uppercase">privacy policy</h1>
+                    <div className="col-lg-4 d-flex justify-content-center">
+                        <h1 className="fs-6 text-uppercase">Developed by HI-Dev</h1>
                     </div>
-                    <div className="col-lg-4">
-                        <h1 className="fs-6 text-uppercase">design-alarm</h1>
+                    <div className="col-lg-4 d-flex justify-content-end">
+                        <h1 className="fs-6 text-uppercase">privacy policy</h1>
                     </div>
                 </div>
             </div>

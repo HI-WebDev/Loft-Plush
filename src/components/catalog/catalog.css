@@ -1,0 +1,35 @@
+.catalog .categories {
+    background-color: #F6AF03;
+    color: #000;
+    border: 2px solid #F6AF03;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.catalog .sort {
+    background-color: #F6AF03;
+    color: #000;
+    border: 2px solid #F6AF03;
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+
+.catalog .form {
+    border: 2px solid #aaa;
+    border-radius: 5px;
+}
+
+
+.catalog .form .search {
+    border: none;
+    font-weight: 500;
+}
+
+.catalog .form .search:focus {
+    outline: 0;
+}
+
+.catalog .form svg {
+    color: #aaa;
+}

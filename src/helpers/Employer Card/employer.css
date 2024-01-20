@@ -1,0 +1,15 @@
+.employer .card {
+    border: none;
+}
+
+.employer .card .card-body .card-title {
+    font-weight: 700;
+}
+
+.employer .card .line {
+    display: block;
+    background-color: #aaa;
+    height: 2px;
+    width: 10%;
+    left: 0%;
+}

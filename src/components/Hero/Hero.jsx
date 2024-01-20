@@ -86,6 +86,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+            
             <New />
             <Quote />
             <Shop />

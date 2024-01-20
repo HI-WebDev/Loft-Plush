@@ -1,0 +1,80 @@
+.contact .title {
+    color: #F6AF03;
+}
+
+
+.contact .row {
+    background-color: #eee;
+    padding: 10px 0px;
+    border-radius: 8px;
+}
+
+
+.contact .left {
+    background-color: #011c2a;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.contact .left .icons span {
+    background-color: #F6AF03;
+    cursor: pointer;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: .4s linear;
+}
+
+.contact .left .icons span:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.contact .right label {
+    font-weight: 500;
+}
+
+.contact .right input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #aaa;
+}
+
+.contact .right input:focus {
+    box-shadow: none;
+    outline: none;
+    caret-color: #aaa;
+}
+
+.contact .right input:focus .contact .right label {
+    color: #aaa;
+}
+
+.contact .right input::-webkit-input-placeholder {}
+
+.contact .right input::-moz-placeholder {}
+
+.contact .right input:-ms-input-placeholder {}
+
+.contact .right input::-ms-input-placeholder {}
+
+.contact .right input::placeholder {
+    font-weight: 500;
+    color: #aaa;
+}
+
+.contact .right .form-check .form-check-input {
+    background-color: #000;
+    cursor: pointer;
+    color: #fff;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.contact .right .btn {
+    background-color: #011c2a;
+    color: #fff;
+}
