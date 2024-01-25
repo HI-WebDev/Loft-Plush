@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom';
 import { GoArrowUpRight } from "react-icons/go";
 import { RiMenu4Line, RiMenu5Fill } from "react-icons/ri";
-import './navbar.css';
 import { useState } from 'react';
 
+import './navbar.css';
+import { useSelector } from 'react-redux';
 
 const Navbar = () => {
-    const [click, setClick] = useState(false)
+    const cart = useSelector((state) => state.cart.cartItems)
 
+    const [click, setClick] = useState(false)
     const handleClick = () => {
         return setClick(!click)
     }
@@ -29,7 +31,10 @@ const Navbar = () => {
                             <Link to="/about" className="nav-link me-3 text-capitalize fw-bold" aria-current="page">about</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/catalog" className="nav-link text-capitalize fw-bold" href="#">catalog</Link>
+                            <Link to="/catalog" className="nav-link me-3 text-capitalize fw-bold">catalog</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/cart" className="nav-link text-capitalize fw-bold">cart ({cart.length})</Link>
                         </li>
                     </ul>
                     <form className="contact d-flex">

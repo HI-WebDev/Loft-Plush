@@ -1,0 +1,73 @@
+.productDetails .image img {
+    border-radius: 1rem;
+}
+
+.productDetails .price span {
+    color: #FC5C42;
+}
+
+.productDetails .price del {
+    color: #aaa;
+}
+
+.productDetails .rate .stars {
+    color: #FB8602;
+}
+
+.productDetails p {
+    font-weight: 400;
+}
+
+.productDetails .add {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.productDetails .add .btn {
+    background-color: #FC5C42;
+    color: #fff;
+}
+
+.productDetails .add .plus {
+    background-color: #fff;
+    color: #FC5C42;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+
+.productDetails .wishlist {
+    border: 1px solid #FC5C42;
+    color: #FC5C42;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.productDetails .wishlist:hover {
+    border: 1px solid #FC5C42;
+    color: #FC5C42;
+}
+
+.productDetails .supports {
+    font-weight: 500;
+}
+
+.productDetails .supports .cont {
+    color: #FC5C42;
+}
+
+.productDetails .tabs .tab {
+    color: #aaa;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.productDetails .tabs .tab.active {
+    color: #000;
+    border-bottom: 2px solid #FC5C42;
+}
