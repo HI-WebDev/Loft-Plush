@@ -13,8 +13,8 @@ const ProductCard = ({ product }) => {
                     <Link to={`/catalog/${product.id}`} className="card-title fs-5 text-decoration-none">
                         {product.productName}
                     </Link> 
-                    <div className="d-flex align-items-center mt-3">
-                        <span className='me-4 fw-bold'>${product.price}</span>
+                    <div className="d-flex align-items-end mt-3">
+                        <span className='price me-4 fw-bold'>${product.price}</span>
                         <del>${product.delPrice}</del>
                     </div>
                 </div>

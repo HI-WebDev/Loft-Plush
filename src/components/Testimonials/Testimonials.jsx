@@ -1,6 +1,6 @@
 import Header from '../../helpers/Header/Header';
 import TestiCard from '../../helpers/Testimonials Card/TestiCard';
-
+import testimonials from '../../assets/Data/testimonials';
 
 import './testimonials.css';
 
@@ -11,23 +11,13 @@ const Testimonials = () => {
                 <Header title="testimonials" btnDisplat="d-none" />
 
                 <div className="row mt-5">
-                    <div className="col-lg-6">
-                        <TestiCard />
-                    </div>
-
-                    <div className="col-lg-6">
-                        <TestiCard />
-                    </div>
-                </div>
-
-                <div className="row mt-3">
-                    <div className="col-lg-6">
-                        <TestiCard />
-                    </div>
-
-                    <div className="col-lg-6">
-                        <TestiCard />
-                    </div>
+                    {testimonials.map((testi, index) => {
+                        return (
+                            <div className="col-lg-6 mb-3" key={index}>
+                                <TestiCard testi={testi} />
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
         </div>

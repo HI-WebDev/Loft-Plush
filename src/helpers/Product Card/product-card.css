@@ -1,3 +1,17 @@
 .productCard .card {
     border: none;
 }
+
+.productCard .card .price{
+color: #FB8602;
+font-weight: 600;
+font-size: 18px;
+}
+
+.productCard .card del{
+    color: #aaa;
+    font-weight: 500;
+    font-size: 17px;
+
+}
+    

@@ -1,5 +1,5 @@
 .contact .title {
-    color: #F6AF03;
+    color: #FB8602;
 }
 
 
@@ -15,9 +15,12 @@
     color: #fff;
     border-radius: 8px;
 }
+.contact .left .cont {
+    color: #FB8602;
+}
 
 .contact .left .icons span {
-    background-color: #F6AF03;
+    background-color: #FB8602;
     cursor: pointer;
     color: #fff;
     width: 30px;
@@ -38,7 +41,7 @@
 .contact .right input {
     border: none;
     background-color: transparent;
-    border-bottom: 2px solid #aaa;
+    border-bottom: 2px solid #FB8602;
 }
 
 .contact .right input:focus {
@@ -65,16 +68,16 @@
 }
 
 .contact .right .form-check .form-check-input {
-    background-color: #000;
+    background-color: #FB8602;
     cursor: pointer;
     color: #fff;
     width: 17px;
     height: 17px;
     border-radius: 50%;
-    border: 2px solid #000;
+    border: 2px solid #FB8602;
 }
 
 .contact .right .btn {
-    background-color: #011c2a;
+    background-color: #FB8602;
     color: #fff;
 }

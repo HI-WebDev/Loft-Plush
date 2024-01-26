@@ -22,15 +22,15 @@ const Contact = () => {
                             <h1 className='fs-4 text-capitalize'>contact information</h1>
                             <p className='mb-5 pb-4 fw-bold text-white-50'>Say something to start a live chat!</p>
                             <div className="d-flex align-items-center mb-4 pb-2">
-                                <FaPhone className="me-2" />
+                                <FaPhone className="cont me-2" />
                                 +2126xxxxxxxx
                             </div>
                             <div className="d-flex align-items-center mb-4 pb-2">
-                                <MdEmail className="me-2" />
+                                <MdEmail className="cont me-2" />
                                 email@test.com
                             </div>
                             <div className="d-flex align-items-center mb-5 pb-4">
-                                <FaLocationDot className="me-2" />
+                                <FaLocationDot className="cont me-2" />
                                 casablanca,casablanca
                             </div>
                             <div className="icons d-flex">

@@ -1,0 +1,8 @@
+.reviewslist .revImage {
+    width: 45px;
+    border-radius: 4px;
+}
+
+.reviewslist .stars {
+    color: #FB8602;
+}
