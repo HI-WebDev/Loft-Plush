@@ -7,7 +7,7 @@ const Blog = () => {
     return (
         <div className='blog mt-5 mb-5 pt-5'>
             <div className="container">
-                <Header title="blog" btnDisplat="d-block" dir="catalog" Btitle="read" />
+                <Header title="blog" btnDisplat="d-block" dir="about" Btitle="read" />
                 {blog.map((blog, index) => {
                     return (
                         <div key={index}>

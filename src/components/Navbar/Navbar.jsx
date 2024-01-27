@@ -7,7 +7,7 @@ import './navbar.css';
 import { useSelector } from 'react-redux';
 
 const Navbar = () => {
-    const cart = useSelector((state) => state.cart.cartItems)
+    const cart = useSelector((state) => state.cart.totalQuantity)
 
     const [click, setClick] = useState(false)
     const handleClick = () => {
@@ -34,16 +34,18 @@ const Navbar = () => {
                             <Link to="/catalog" className="nav-link me-3 text-capitalize fw-bold">catalog</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/cart" className="nav-link text-capitalize fw-bold">cart ({cart.length})</Link>
+                            <Link to="/cart" className="nav-link text-capitalize fw-bold">
+                                cart (<span className='length'>{cart}</span>)
+                            </Link>
                         </li>
                     </ul>
-                    <form className="contact d-flex">
+                    <div className="contact d-flex">
                         <button className="mainBtn d-flex align-items-center justify-content-center p-2 ps-3 pe-3"
                             type="submit">
                             <Link to='/contact' className='text-decoration-none text-uppercase'>contact</Link>
                             <GoArrowUpRight className='fw-bold ms-1' />
                         </button>
-                    </form>
+                    </div>
                 </div>
             </div>
         </nav>

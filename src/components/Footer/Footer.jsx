@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="row mb-5">
                     <div className="col-lg-4">
                         <div className="d-flex flex-column">
-                            <h1 className="fs-3 text-uppercase mb-">loft plush</h1>
+                            <h1 className="title fs-3 text-uppercase mb-">loft <span>plush</span></h1>
                             <h5 className='fs-6 text-uppercase'>loft forniture</h5>
                         </div>
                     </div>
@@ -82,12 +82,12 @@ const Footer = () => {
                 <span className="line"></span>
                 <div className="row">
                     <div className="col-lg-4">
-                        <h1 className="fs-6 text-uppercase">
-                            &copy; {year} loft plush
+                        <h1 className="subTitle fs-6 text-uppercase">
+                            &copy; {year} loft <span>plush</span>
                         </h1>
                     </div>
                     <div className="col-lg-4 d-flex justify-content-center">
-                        <h1 className="fs-6 text-uppercase">Developed by HI-Dev</h1>
+                        <h1 className="dev fs-6 text-uppercase">Developed by <span>HI-Dev</span></h1>
                     </div>
                     <div className="col-lg-4 d-flex justify-content-end">
                         <h1 className="fs-6 text-uppercase">privacy policy</h1>

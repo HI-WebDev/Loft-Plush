@@ -19,22 +19,20 @@ const ProductDetails = () => {
     const { id } = useParams();
     const product = products.find((product) => product.id === id)
     const { productName, price, delPrice, image, avgRating, category, tags, stock, reviews } = product;
-    console.log(reviews)
     //add to cart
     const dispatch = useDispatch();
     const addToCart = () => {
-        dispatch(cartActions.addToCart(
+        dispatch(cartActions.addToCart({
+            id,
             productName,
+            image,
             price,
             delPrice,
-            image,
-            avgRating,
             category,
-            tags,
-            stock
+            avgRating
+        }
         ))
     }
-
     //handle the tab action
     const [tab, setTab] = useState("desc")
 
@@ -80,13 +78,15 @@ const ProductDetails = () => {
 
         const firstName = fname;
         const lastName = lname;
+        const starUser = star;
         const text = area;
         const reviewDataUser = {
             firstName,
             lastName,
+            starUser,
             text
         }
-        console.log(obj)
+        // console.log(reviewDataUser)
     }
 
     return (

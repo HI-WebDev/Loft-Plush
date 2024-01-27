@@ -17,3 +17,15 @@
     display: flex;
     justify-content: center;
 }
+
+.footer .title span{
+    color: #fb8602;
+}
+
+.footer .subTitle span{
+    color: #fb8602;
+}
+
+.footer .dev span{
+    color: #fb8602;
+}

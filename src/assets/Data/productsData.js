@@ -29,7 +29,7 @@ const products = [
     {
         id: "01",
         image: bed1,
-        productName: "Abello 4 Piece Reversible Duvet",
+        productName: "Abello 4 Piece Duvet",
         category: "bed sleep",
         description:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur maiores unde, minima excepturi nostrum asperiores. Enim excepturi ex qui, sunt maxime modi eaque veritatis, praesentium cum officia vero dolorem fuga.",
@@ -69,7 +69,7 @@ const products = [
     {
         id: "03",
         image: bed3,
-        productName: "Mykonos 20 Piece Comforter Set",
+        productName: "Mykonos 20 Piece Set",
         category: "bed sleep",
         description:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur maiores unde, minima excepturi nostrum asperiores. Enim excepturi ex qui, sunt maxime modi eaque veritatis, praesentium cum officia vero dolorem fuga.",
@@ -89,7 +89,7 @@ const products = [
     {
         id: "04",
         image: bed4,
-        productName: "Dawn 2 Piece Duvet Cover Set ",
+        productName: "Dawn 2 Piece Duvet Cover",
         category: "bed sleep",
         description:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur maiores unde, minima excepturi nostrum asperiores. Enim excepturi ex qui, sunt maxime modi eaque veritatis, praesentium cum officia vero dolorem fuga.",
@@ -214,7 +214,7 @@ const products = [
     {
         id: "10",
         image: chair2,
-        productName: "20 Inch Dining Armchair, Velvet Seating",
+        productName: "20 Inch Dining Armchair",
         category: "Armchair",
         description:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur maiores unde, minima excepturi nostrum asperiores. Enim excepturi ex qui, sunt maxime modi eaque veritatis, praesentium cum officia vero dolorem fuga.",
@@ -234,7 +234,7 @@ const products = [
     {
         id: "11",
         image: chair3,
-        productName: "Nuf 30 Inch Swivel Barstool Armchair",
+        productName: "Swivel Barstool Armchair",
         category: "Armchair",
         description:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur maiores unde, minima excepturi nostrum asperiores. Enim excepturi ex qui, sunt maxime modi eaque veritatis, praesentium cum officia vero dolorem fuga.",
@@ -254,7 +254,7 @@ const products = [
     {
         id: "12",
         image: chair4,
-        productName: "Sez 26 Inch Modern Swivel Barstool Armchair",
+        productName: "Swivel Barstool Armchair",
         category: "Armchair",
         description:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur maiores unde, minima excepturi nostrum asperiores. Enim excepturi ex qui, sunt maxime modi eaque veritatis, praesentium cum officia vero dolorem fuga.",
@@ -276,7 +276,7 @@ const products = [
     {
         id: "13",
         image: light1,
-        productName: "Meditterano 16'' High 1-Light Outdoor",
+        productName: "Meditterano Light Outdoor",
         category: "lighting",
         description:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur maiores unde, minima excepturi nostrum asperiores. Enim excepturi ex qui, sunt maxime modi eaque veritatis, praesentium cum officia vero dolorem fuga.",
@@ -296,7 +296,7 @@ const products = [
     {
         id: "14",
         image: light2,
-        productName: "Member's Mark 28 Black Lantern",
+        productName: "Member's Mark 28 Black",
         category: "lighting",
         description:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur maiores unde, minima excepturi nostrum asperiores. Enim excepturi ex qui, sunt maxime modi eaque veritatis, praesentium cum officia vero dolorem fuga.",
@@ -336,7 +336,7 @@ const products = [
     {
         id: "16",
         image: light4,
-        productName: "SAFAVIEH Cendra Outdoor Wall Lantern",
+        productName: "SAFAVIEH Outdoor Lantern",
         category: "lighting",
         description:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur maiores unde, minima excepturi nostrum asperiores. Enim excepturi ex qui, sunt maxime modi eaque veritatis, praesentium cum officia vero dolorem fuga.",

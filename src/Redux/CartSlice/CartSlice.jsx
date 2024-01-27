@@ -21,10 +21,13 @@ const cartSlice = createSlice({
                 state.cartItems.push({
                     id: newItem.id,
                     productName: newItem.productName,
+                    image: newItem.image,
                     price: newItem.price,
                     delPrice: newItem.delPrice,
                     quantity: 1,
-                    totalPrice: newItem.price
+                    totalPrice: newItem.price,
+                    category: newItem.category,
+                    avgRating: newItem.avgRating
                 })
             }
             else {

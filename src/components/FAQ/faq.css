@@ -15,7 +15,9 @@
 
 .faq .accordion .accordion-button::after {
     content: "+";
-    font-weight: 400;
+    font-weight: 500;
+    color: #fb8602;
+
     font-size: 40px;
     background-image: none;
     display: flex;

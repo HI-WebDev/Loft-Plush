@@ -1,0 +1,94 @@
+.cart .head {
+    border-bottom: 2px solid #ddd;
+}
+
+.cart .cartImage img {
+    width: 70px;
+    border-radius: 4px;
+}
+
+.cart .category {
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+}
+
+.cart .category span {
+    color: #fb8602;
+}
+
+.cart .rating {
+    color: #fb8602;
+}
+
+.cart .rating span {
+    color: #000;
+
+}
+
+.cart .noproduct {
+    color: #fb8602;
+    
+}
+
+.cart thead tr th {
+    color: #727171;
+}
+
+.cart tbody tr td {
+    font-weight: 500;
+}
+
+.cart .trash svg {
+    color: red;
+    cursor: pointer;
+}
+
+.right .title {
+    border-bottom: 2px solid #ddd;
+}
+
+.right .shipping select {
+    border: none;
+    background-color: #eee;
+    border-radius: 4px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.right .shipping select option {
+    font-weight: 500;
+}
+
+.right .promo input {
+    border: none;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.right .promo input::-webkit-input-placeholder {}
+
+.right .promo input::-moz-placeholder {}
+
+.right .promo input:-ms-input-placeholder {}
+
+.right .promo input::-ms-input-placeholder {}
+
+.right .promo input::placeholder {
+    font-weight: 500;
+    color: #000;
+}
+
+.right .button {
+    border-bottom: 2px solid #aaa;
+}
+
+.right .button .btn {
+    background-color: #fb8602;
+    color: #fff;
+}
+
+.right .btn, .right .btn:hover {
+    background-color: #fb8602;
+    color: #fff;
+}

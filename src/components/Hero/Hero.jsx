@@ -77,7 +77,7 @@ const Hero = () => {
                         </div>
                         <div className="col-lg-2">
                             <button className="mainBtn d-flex align-items-center justify-content-center p-3 ps-4 pe-4 w-100" type="submit">
-                                <Link to='/contact' className='text-decoration-none text-uppercase fs-4'>browse</Link>
+                                <Link to='/catalog' className='text-decoration-none text-uppercase fs-4'>browse</Link>
                                 <span className="ms-1 fs-4">
                                     <GoArrowUpRight />
                                 </span>

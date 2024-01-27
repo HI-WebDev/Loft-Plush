@@ -19,7 +19,7 @@ const BoxBlog = ({ blog }) => {
                         {blog.description}
                     </p>
                     <div className="link d-flex justify-content-end mt-4 pb-2">
-                        <Button Btitle="about" />
+                        <Button dir="about" Btitle="about" />
                     </div>
                 </div>
             </div>

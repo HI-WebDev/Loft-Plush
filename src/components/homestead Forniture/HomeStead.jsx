@@ -30,7 +30,7 @@ const HomeStead = () => {
                                 by browsing our archive.
                             </p>
                             <div className="link mt-5 d-flex justify-content-end pb-2">
-                                <Button Btitle="about" />
+                                <Button dir="about" Btitle="about" />
                             </div>
                         </div>
                     </div>
