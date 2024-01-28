@@ -12,24 +12,24 @@ const FollowUs = () => {
                 <Header title="follow us" btnDisplat="d-block" dir="catalog" Btitle="check" />
 
                 <div className="row mt-5">
-                    <div className="col-lg-3">
+                    <div className="col-12 col-md-6 text-center col-lg-3">
                         <div className="followImage">
-                            <img src={follow1} alt="" className="img-fluid" />
+                            <img src={follow1} alt="" className="img-fluid col-12" />
                         </div>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-12 col-md-6 text-center col-lg-3">
                         <div className="followImage two">
-                            <img src={follow2} alt="" className="img-fluid" />
+                            <img src={follow2} alt="" className="img-fluid col-12" />
                         </div>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-12 col-md-6 text-center col-lg-3">
                         <div className="followImage three">
-                            <img src={follow3} alt="" className="img-fluid" />
+                            <img src={follow3} alt="" className="img-fluid col-12" />
                         </div>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-12 col-md-6 text-center col-lg-3">
                         <div className="followImage">
-                            <img src={follow4} alt="" className="img-fluid" />
+                            <img src={follow4} alt="" className="img-fluid col-12" />
                         </div>
                     </div>
                 </div>

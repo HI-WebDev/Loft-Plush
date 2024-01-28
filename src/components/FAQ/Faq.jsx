@@ -7,7 +7,7 @@ const Faq = () => {
             <div className="container">
                 <Header title='faq' btnDisplat="d-none" />
 
-                <div className='mt-5'>
+                <div className='mt-4 mt-md-5'>
                     <div className="accordion" id="accordionExample">
                         <div className="accordion-item pt-2  pb-2">
                             <h2 className="accordion-header" id="headingOne">

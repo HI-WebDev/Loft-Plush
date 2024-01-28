@@ -9,12 +9,18 @@
 }
 
 .home .title {
-    height: 90px;
-    font-size:90px;
+    font-size: 40px;
 }
 
 .home .image img {
     height: 80px;
     width: 100%;
     border-radius: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+    .home .title {
+        height: 90px;
+        font-size: 90px;
+    }
 }

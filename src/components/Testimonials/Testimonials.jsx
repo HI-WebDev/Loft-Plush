@@ -13,7 +13,7 @@ const Testimonials = () => {
                 <div className="row mt-5">
                     {testimonials.map((testi, index) => {
                         return (
-                            <div className="col-lg-6 mb-3" key={index}>
+                            <div className="col-12 col-md-6 col-lg-6 mb-3" key={index}>
                                 <TestiCard testi={testi} />
                             </div>
                         )

@@ -15,14 +15,14 @@ const HomeStead = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-6">
-                        <h1 className="fs-2 text-uppercase">
+                    <div className="col-12 col-md-12 col-lg-6">
+                        <h1 className="fs-2 text-uppercase text-center text-lg-start">
                             homeStead forniture
                         </h1>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-12 col-md-12 col-lg-6">
                         <div className="d-flex flex-column">
-                            <p className="desc mb-5">
+                            <p className="desc mb-lg-5 text-center text-lg-start">
                                 An enthusiasm for creative living solutions develops into a
                                 bigger mission for ourselves and the rest of the planet.
                                 Discover new concepts, creative design inspiration, and

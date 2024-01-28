@@ -16,16 +16,16 @@ const Shop = () => {
                 <Header title="shop" btnDisplat="d-none" />
 
                 <div className="row mt-5">
-                    <div className="col-lg-6 mb-4">
+                    <div className="col-12 col-md-6 col-lg-6 mb-4">
                         <ShopCard title="sofas" image={shop1} />
                     </div>
-                    <div className="col-lg-6 mb-4">
+                    <div className="col-12 col-md-6 col-lg-6 mb-4">
                         <ShopCard title="kitchen" image={shop2} />
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-12 col-md-6 col-lg-6 mb-4">
                         <ShopCard title="tables" image={shop3} />
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-12 col-md-6 col-lg-6">
                         <ShopCard title="lights" image={shop4} />
                     </div>
                 </div>

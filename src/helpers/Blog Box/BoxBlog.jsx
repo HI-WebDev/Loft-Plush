@@ -5,12 +5,12 @@ import './blog-box.css';
 const BoxBlog = ({ blog }) => {
     return (
         <div className="row mt-5 d-flex align-items-center justify-content-between">
-            <div className="col-lg-6">
-                <div className="blogImage">
+            <div className="col-12 col-lg-6">
+                <div className="blogImage mb-4 mb-md-0">
                     <img src={blog.image} alt="" className="img-fluid" />
                 </div>
             </div>
-            <div className="col-lg-5">
+            <div className="col-12 col-lg-5">
                 <div className="d-flex flex-column">
                     <h1 className="fs-5 text-uppercase fw-bold mb-2">
                         {blog.title}

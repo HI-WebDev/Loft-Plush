@@ -21,15 +21,15 @@ const Hero = () => {
             <div className='home mt-5 mb-5 d-flex align-items-center'>
                 <div className="container ps-0 pe-0">
                     <div className="row d-flex align-items-center justify-content-center mb-3">
-                        <div className="col-lg-2">
+                        <div className="col-12 col-lg-2">
                             <h1 className="title text-uppercase">we</h1>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-12 col-lg-6">
                             <div className="image ">
                                 <img src={line1} alt="" className="img-fluid" />
                             </div>
                         </div>
-                        <div className="col-lg-4 d-flex justify-content-end">
+                        <div className="col-12 col-lg-4 d-flex justify-content-end">
                             <h1 className="title text-uppercase">create</h1>
                         </div>
                     </div>
@@ -64,15 +64,15 @@ const Hero = () => {
                     </div>
 
                     <div className="row d-flex align-items-center justify-content-center ">
-                        <div className="col-lg-2">
+                        <div className="col-12 col-lg-2">
                             <h1 className="title text-uppercase">and</h1>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-12 col-lg-3">
                             <div className="image">
                                 <img src={line4} alt="" className="img-fluid" />
                             </div>
                         </div>
-                        <div className="col-lg-5">
+                        <div className="col-12 col-lg-5">
                             <h1 className="title text-uppercase">business</h1>
                         </div>
                         <div className="col-lg-2">
