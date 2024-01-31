@@ -96,12 +96,12 @@ const ProductDetails = () => {
                 <div className="productDetails mt-5 mb-5 ">
                     <div className="container">
                         <div className="row d-flex justify-content-between align-items-center mb-5">
-                            <div className="col-lg-5 ">
+                            <div className="col-12 col-lg-5 mb-4 mb-lg-0">
                                 <div className="image">
                                     <img src={image} alt="" className="img-fluid" />
                                 </div>
                             </div>
-                            <div className="col-lg-6">
+                            <div className="col-12 col-md-12 col-lg-6">
                                 <div className="d-flex flex-column">
                                     <h5 className="title fs-4 fw-bold mb-2">{productName}</h5>
                                     <div className="d-flex price mb-2">
@@ -124,8 +124,8 @@ const ProductDetails = () => {
                                         esse ullam reprehenderit voluptas ad vitae et maxime mollitia,
                                         est deleniti tempora neque doloremque.
                                     </p>
-                                    <div className="d-flex mb-4">
-                                        <div className="wishlist btn d-flex align-items-center me-5">
+                                    <div className="d-flex flex-column flex-md-row mb-4 ">
+                                        <div className="wishlist btn d-flex align-items-center me-md-5 mb-3 mb-lg-0">
                                             <span className="me-2">
                                                 <FaRegHeart className=" fw-bold" />
                                             </span>
@@ -146,8 +146,8 @@ const ProductDetails = () => {
 
 
                                     <div className="supports d-flex flex-column">
-                                        <div className="d-flex mb-3">
-                                            <div className="d-flex me-5">
+                                        <div className="d-flex flex-column flex-lg-row mb-3">
+                                            <div className="d-flex me-lg-5 mb-3 mb-lg-0">
                                                 <span className="text-capitalize me-1"> category:</span>
                                                 <span className="cont text-capitalize"> {category}</span>
                                             </div>
@@ -156,7 +156,7 @@ const ProductDetails = () => {
                                                 <span className="cont text-capitalize">{tags}</span>
                                             </div>
                                         </div>
-                                        <div className="d-flex me-4">
+                                        <div className="d-flex me-lg-4">
                                             <span className="text-capitalize me-1"> stock:</span>
                                             <span className="cont ">{stock} In the stock</span>
                                         </div>
@@ -180,7 +180,7 @@ const ProductDetails = () => {
 
                         <div className="row">
                             {tab === "desc" && (
-                                <div className="col-7 ms-5 mt-4">
+                                <div className="col-12 col-lg-7 ms-lg-5 mt-4">
                                     <p>{product.description}</p>
                                 </div>
                             )}
@@ -188,15 +188,15 @@ const ProductDetails = () => {
                             {tab === "rev" && (
                                 reviews.map((review, index) => {
                                     return (
-                                        <div className="col-lg-7 mt-4 ms-5 mb-5" key={index}>
+                                        <div className="col-12 col-lg-7 mt-4 ms-lg-5 mb-5" key={index}>
                                             <ReviewsList review={review} />
 
                                             {/* //opinion  */}
-                                            <div className="mt-4 ms-5">
+                                            <div className="mt-4 ms-3 ms-lg-5">
                                                 <h1 className="fs-5 text-capitalize">
                                                     leave your opinion
                                                 </h1>
-                                                <form action="" className="ms-3 d-flex flex-column" onSubmit={handleSubmit}>
+                                                <form action="" className="ms-lg-3 d-flex flex-column" onSubmit={handleSubmit}>
                                                     <div className="d-flex name mt-3">
                                                         <input type="text" name="fname" id="fname" placeholder="Enter your fname"
                                                             className="me-5 p-2 ps-1 w-100" onChange={handleFname} value={fname} />
@@ -235,7 +235,7 @@ const ProductDetails = () => {
                         <div className="row">
                             {related.map((product, index) => {
                                 return (
-                                    <div className="col-lg-3" key={index}>
+                                    <div className="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0" key={index}>
                                         <ProductCard product={product} />
                                     </div>
                                 )

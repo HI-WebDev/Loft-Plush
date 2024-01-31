@@ -6,6 +6,7 @@ import AbtHeader from '../../helpers/About Header/AbtHeader';
 import EmpBox from '../../helpers/Emp Box/EmpBox';
 import EmployerCard from '../../helpers/Employer Card/EmployerCard';
 
+
 import './about.css';
 
 const About = () => {
@@ -25,7 +26,7 @@ const About = () => {
 
                 {/*start about */}
                 <div className="row mb-5 pb-5 d-flex align-items-center justify-content-between">
-                    <div className="col-lg-5">
+                    <div className="col-lg-5 mb-4 mb-lg-0">
                         <div className="image">
                             <img src={abt} alt="" className="img-fluid" />
                         </div>
@@ -64,14 +65,14 @@ const About = () => {
 
                 {/*start leaders members */}
                 <AbtHeader title="meet our" span="leadership" />
-                <div className="row mb-5 pb-5">
-                    <div className="col-lg-4">
+                <div className="row mb-5 pb-md-5">
+                    <div className="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
                         <EmployerCard name="hi developer" func="prisedent & ceo" />
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
                         <EmployerCard name="hi developer" func="prisedent & ceo" />
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-12 col-md-6 col-lg-4">
                         <EmployerCard name="hi developer" func="prisedent & ceo" />
                     </div>
                 </div>
@@ -80,31 +81,29 @@ const About = () => {
 
                 {/* start team members */}
                 <AbtHeader title="meet our" span="teams" />
-                <div className="row mb-4">
-                    <div className="col-lg-3">
+                <div className="row mb-5">
+                    <div className="col-6 col-md-4 col-lg-3 mb-3 mb-lg-4">
                         <EmpBox name="HI Developer" />
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-6 col-md-4 col-lg-3 mb-3 mb-lg-4">
                         <EmpBox name="HI Developer" />
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-6 col-md-4 col-lg-3 mb-3 mb-lg-4">
                         <EmpBox name="HI Developer" />
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-6 col-md-4 col-lg-3 mb-3 mb-lg-4">
                         <EmpBox name="HI Developer" />
                     </div>
-                </div>
-                <div className="row mb-5 pb-5">
-                    <div className="col-lg-3">
+                    <div className="col-6 col-md-4 col-lg-3 mb-3 mb-lg-0">
                         <EmpBox name="HI Developer" />
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-6 col-md-4 col-lg-3 mb-3 mb-lg-0">
                         <EmpBox name="HI Developer" />
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-6 col-md-4 col-lg-3 mb-3 mb-lg-0">
                         <EmpBox name="HI Developer" />
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-6 col-md-4 col-lg-3 mb-3 mb-lg-0">
                         <EmpBox name="HI Developer" />
                     </div>
                 </div>
@@ -113,14 +112,14 @@ const About = () => {
 
                 {/*start investors brands */}
                 <AbtHeader title="meet our" span="brands" />
-                <div className="row mb-5 pb-5">
-                    <div className="col-4">
+                <div className="row mb-5 pb-md-5 d-flex justify-content-center justify-content-md-start">
+                    <div className="col-6 col-md-4">
                         <Brand title="vans" />
                     </div>
-                    <div className="col-4">
+                    <div className="col-6 col-md-4 mb-4 mb-md-0">
                         <Brand title="vans" />
                     </div>
-                    <div className="col-4">
+                    <div className="col-6 col-md-4">
                         <Brand title="vans" />
                     </div>
 
@@ -131,7 +130,7 @@ const About = () => {
                 {/* start location */}
                 <AbtHeader title="check our" span="locations" />
                 <div className="row d-flex align-items-end justify-content-between mb-5 pb-4">
-                    <div className="col-lg-6">
+                    <div className="col-12 col-md-6 mb-5 mb-md-0">
                         <div className="d-flex align-items-end">
                             <div className="locaImag me-4">
                                 <img src={loca1} alt="" className='img-fluid' />
@@ -144,11 +143,14 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 d-flex justify-content-end">
+                    <div className="col-12 col-md-6 d-flex justify-content-md-end">
                         <div className="d-flex align-items-end">
-                            <div className="locaImag2 me-4">
-                                <img src={loca2} alt="" className='img-fluid' />
-                            </div>
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/tdtlrbly.json"
+                                    trigger="hover"
+                                    state="hover-jump-roll"
+                                    style={{ width: "120px", height: "100px" }}>
+                                </lord-icon>
                             <div className="d-flex flex-column">
                                 <h1 className="fs-4 mb-2">Casablanca</h1>
                                 <span className='desc text-black-50'>

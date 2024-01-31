@@ -78,7 +78,7 @@ const Catalog = () => {
                         <div className="row">
                             {data.map((product, index) => {
                                 return (
-                                    <div className="col-3" key={index}>
+                                    <div className="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0" key={index}>
                                         <ProductCard product={product} />
                                     </div>
                                 )

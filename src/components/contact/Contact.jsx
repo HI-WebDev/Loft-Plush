@@ -17,7 +17,7 @@ const Contact = () => {
                     </p>
                 </div>
                 <div className="row justify-content-between">
-                    <div className="col-lg-5">
+                    <div className="col-12 col-lg-5 mb-3 mb-lg-0">
                         <div className="left d-flex flex-column p-4">
                             <h1 className='fs-4 text-capitalize'>contact information</h1>
                             <p className='mb-5 pb-4 fw-bold text-white-50'>Say something to start a live chat!</p>
@@ -46,7 +46,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-12 col-lg-6">
                         <div className="right d-flex flex-column pe-4 pt-4">
                             <div className="d-flex justify-content-between align-items-center mb-4">
                                 <div className="col-5 d-flex flex-column">

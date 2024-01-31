@@ -18,7 +18,7 @@ import FollowUs from '../Follow Us/FollowUs';
 const Hero = () => {
     return (
         <>
-            <div className='home mt-5 mb-5 d-flex align-items-center'>
+            <div className='home mt-3 mt-md-5 mb-5 d-flex align-items-center'>
                 <div className="container ps-0 pe-0">
                     <div className="row d-flex align-items-center justify-content-center mb-3">
                         <div className="col-12 col-lg-2">
@@ -29,7 +29,7 @@ const Hero = () => {
                                 <img src={line1} alt="" className="img-fluid" />
                             </div>
                         </div>
-                        <div className="col-12 col-lg-4 d-flex justify-content-end">
+                        <div className="col-12 col-lg-4 d-flex justify-content-end mt-2 mt-lg-0">
                             <h1 className="title text-uppercase">create</h1>
                         </div>
                     </div>
@@ -47,10 +47,10 @@ const Hero = () => {
 
 
                     <div className="row d-flex align-items-center justify-content-center mb-3">
-                        <div className="col-lg-2 ">
+                        <div className="col-lg-2 text-end text-lg-start">
                             <h1 className="title text-uppercase">for</h1>
                         </div>
-                        <div className="col-lg-3 d-flex justify-content-end">
+                        <div className="col-lg-3 d-flex justify-content-lg-end">
                             <h1 className="title text-uppercase">your</h1>
                         </div>
                         <div className="col-lg-4">
@@ -58,7 +58,7 @@ const Hero = () => {
                                 <img src={line3} alt="" className="img-fluid" />
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 mt-2 mt-lg-0 d-flex justify-content-end">
                             <h1 className="title text-uppercase">home</h1>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ const Hero = () => {
                                 <img src={line4} alt="" className="img-fluid" />
                             </div>
                         </div>
-                        <div className="col-12 col-lg-5">
+                        <div className="col-12 col-lg-5 text-end mb-3 mb-lg-0 mt-2 mt-lg-0">
                             <h1 className="title text-uppercase">business</h1>
                         </div>
                         <div className="col-lg-2">

@@ -3,7 +3,7 @@
 }
 
 .about .image img {
-    height: 80vh;
+    /* height: 80vh; */
     width: 100%;
 }
 
@@ -19,10 +19,18 @@
     background-color: #eee;
 }
 
-.about .locaImag img{
+.about .locaImag img {
     height: 12rem;
 }
 
-.about .locaImag2 img{
-    height: 5rem;
+.about lord-icon {
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .about .image img {
+        height: 80vh;
+        width: 100%;
+    }
 }

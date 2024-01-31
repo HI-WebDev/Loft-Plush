@@ -48,7 +48,7 @@ const Cart = () => {
         <div className="cart mt-5 mb-5">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-8">
+                    <div className="col-12 col-lg-8 mb-5 mb-lg-0">
                         <div className="head d-flex align-items-center justify-content-between mb-4 pb-2">
                             <span className="fs-4 fw-bold text-capitalize">shopping cart</span>
                             <span className="fs-5 fw-bold text-capitalize">
@@ -59,10 +59,10 @@ const Cart = () => {
                             <table className="table">
                                 <thead>
                                     <tr className="text-uppercase">
-                                        <th className="col-4" scope="col-4">product details</th>
-                                        <th className="col-1 text-center" scope="col-1">quantity</th>
-                                        <th className="col-1 text-center" scope="col-1">price</th>
-                                        <th className="col-1 text-center" scope="col-1">action</th>
+                                        <th className="col-12 col-lg-4" scope="col-4">product details</th>
+                                        <th className="col-12 col-lg-1 text-center" scope="col-1">quantity</th>
+                                        <th className="col-12 col-lg-1 text-center" scope="col-1">price</th>
+                                        <th className="col-12 col-lg-1 text-center" scope="col-1">action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -80,7 +80,7 @@ const Cart = () => {
                         )}
                     </div>
 
-                    <div className="col-lg-4">
+                    <div className="col-12 col-lg-4">
                         <form className="right d-flex flex-column" onSubmit={handleSubmit}>
                             <h1 className="title fs-4 text-capitalize fw-bold title mb-4 pb-3">
                                 order summary
@@ -131,7 +131,7 @@ export const Tr = ({ item }) => {
     return (
         <tr>
             <td className="d-flex align-items-center">
-                <div className="cartImage me-2">
+                <div className="cartImage d-none d-md-block me-2">
                     <img src={item.image} alt="" className="img-fluid" />
                 </div>
                 <div className="d-flex flex-column">
