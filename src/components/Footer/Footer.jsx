@@ -10,13 +10,13 @@ const Footer = () => {
         <div className='footer pt-5 pb-3'>
             <div className="container">
                 <div className="row mb-4 mb-md-5 ">
-                    <div className="col-6 col-lg-4 mb-4 mb-lg-0 d-flex justify-content-center">
+                    <div className="col-6 col-lg-4 mb-4 mb-lg-0 d-flex justify-content-center justify-content-lg-start">
                         <div className="d-flex flex-column">
                             <h1 className="title fs-3 text-uppercase mb-">loft <span>plush</span></h1>
                             <h5 className='fs-6 text-uppercase'>loft forniture</h5>
                         </div>
                     </div>
-                    <div className="col-6 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center">
+                    <div className="col-6 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center justify-content-lg-start">
                         <ul className='list-unstyled'>
                             <li className='text-uppercase fw-bold fs-6 mb-3'>follow us</li>
                             <li className='text-uppercase mb-2'>
@@ -27,7 +27,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-6 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center">
+                    <div className="col-6 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center justify-content-lg-start">
                         <ul className='list-unstyled'>
                             <li className='text-uppercase fw-bold fs-6 mb-3'>for customers</li>
                             <li className='text-uppercase mb-2'>
@@ -47,7 +47,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-6 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center">
+                    <div className="col-6 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center justify-content-lg-start">
                         <ul className='list-unstyled'>
                             <li className='text-uppercase fw-bold fs-6 mb-3'>company</li>
                             <li className='text-uppercase mb-2'>
@@ -61,7 +61,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-6 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center">
+                    <div className="col-6 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center justify-content-lg-start">
                         <ul className='list-unstyled'>
                             <li className='text-uppercase fw-bold fs-6 mb-3'>ask a question</li>
                             <li className='text-uppercase mb-2'>
